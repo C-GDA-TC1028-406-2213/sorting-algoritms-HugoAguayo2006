@@ -12,6 +12,10 @@ namespace SortingAlgorithms {
 //mingw32-make all
 //./sorting_demo
 // mingw32-make test
+// TERMINADO
+//git add .
+// git commit -m "Terminado Hugo"            
+// git push 
 
 void bubbleSort(int arr[], int n) {
     int temporal;
@@ -129,7 +133,7 @@ void quickSort(int arr[], int low, int high) {
         // Obtenemos el índice del pivote
         int i = partition(arr, low, high);
         // i =  posicion del pivote
-        
+
         // Ordenamos a la izquierda del pivote
         quickSort(arr, low, i - 1);
         // Ordenamos a la derecha del pivote
